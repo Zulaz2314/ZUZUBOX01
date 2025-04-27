@@ -1,0 +1,19 @@
+{
+    "domain": "vbot_assist",
+    "name": "VBot Assistant",
+    "version": "1.0.2",
+    "documentation": "https://github.com/Zulaz2314/ZUZUBOX.git",
+    "requirements": ["aiohttp"],
+    "dependencies": [
+        "conversation",
+        "energy",
+        "history",
+        "recorder",
+        "rest",
+        "scrape"
+    ],
+    "codeowners": ["Zulaz2314"],
+    "issue_tracker": "https://github.com/Zulaz2314/ZUZUBOX.git",
+    "iot_class": "cloud_polling",
+    "config_flow": true
+}

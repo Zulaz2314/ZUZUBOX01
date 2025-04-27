@@ -1,0 +1,9 @@
+{
+  "name": "VBot Assist",
+  "version": "1.1",
+  "slug": "vbot_assist",
+  "documentation": "https://github.com/Zulaz2314/ZUZUBOX.git",
+  "dependencies": [],
+  "codeowners": ["Zulaz2314"],
+  "requirements": ["aiohttp"]
+}
