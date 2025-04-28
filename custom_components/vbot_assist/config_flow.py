@@ -11,7 +11,7 @@ _LOGGER = logging.getLogger(__name__)
 
 # Schema chứa cả URL API và Mode
 STEP_USER_DATA_SCHEMA = vol.Schema({
-    vol.Optional(VBot_URL_API, default="http://192.168.14.194:5003"): str,
+    vol.Optional(VBot_URL_API, default="192.168.137.220:5002"): str,
     vol.Required(VBot_PROCESSING_MODE, default="chatbot"): vol.In(
         {"chatbot": "Luồng Chatbot", "processing": "Luồng Xử Lý Chính"}
     ),
